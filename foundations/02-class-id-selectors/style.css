@@ -1,0 +1,25 @@
+.one {
+    background-color: #ed7474;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#three {
+    font-size: 24px;
+}
+
+/*
+    We could bring #four up onto #three, having
+    it become comma-separated. Reduces redefining
+    font-size, since they're the same.
+*/
+
+#four {
+    background-color: #54f6a5;
+    font-size: 24px;
+    font-weight: bold;
+}
